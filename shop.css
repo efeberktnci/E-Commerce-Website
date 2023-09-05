@@ -1,0 +1,309 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lora', serif;
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+
+}
+
+
+/* Navbar Start */
+
+.navbar {
+    padding: 17px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background-color: #f3f4f6;
+    box-shadow: 0 0 14px rgba(0, 0, 0, 0.3);
+
+}
+
+.navbar .logo h1 {
+    color: #424144;
+    border-bottom: 12px solid #fd6561;
+    border-bottom-right-radius: 15px;
+    font-weight: bolder;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    width: 200px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
+
+}
+
+
+.navbar .menu li {
+    margin-left: 5.5px;
+
+}
+
+.navbar .menu li a {
+    margin-left: 75px;
+    color: #424144;
+    border-bottom: 4px solid transparent;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.navbar .menu {
+
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+}
+
+.navbar .menu li .active {
+    border-bottom: 3px solid #fd6561;
+    border-radius: 7px;
+}
+
+.navbar .menu li a i {
+    color: #fd6561;
+}
+
+.navbar .menu li a:hover {
+    border-bottom: 3px solid #fd6561;
+    border-radius: 7px;
+    width: 100%;
+}
+
+/* Navbar End */
+
+
+.fotograf-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 5;
+    position: relative;
+}
+
+
+
+
+
+.heading h1 {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.fotograf-2 {
+    margin-top: 100px;
+
+}
+
+
+/* Erkek Products */
+
+.sec {
+    padding: 10px 5%;
+    margin: 0;
+    padding: 0px;
+
+}
+
+.pheading {
+    padding: 50px;
+    margin: 0;
+    text-align: center;
+    font-weight: bolder;
+
+
+}
+
+/* Ürün Kartı Stili */
+.products {
+    color: #000000;
+    background-color: #232B38;
+    height: auto;
+    display: flex;
+    gap: 20px;
+    padding: 175px;
+    margin-bottom: -25px;
+    justify-content: center;
+    flex-wrap: wrap;
+    z-index: 1;
+    margin-top: -70px;
+}
+
+.card {
+    width: 300px;
+    background-color: #274263;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    justify-content: space-between;
+}
+
+.card img {
+    height: 250px;
+    width: 100%;
+}
+
+.card .desc {
+    padding: 5px 20px;
+    opacity: 0.8;
+}
+
+.card .title {
+    font-weight: 900;
+    font-size: 20px;
+    color: #fafafa;
+    padding: 0 20px;
+}
+
+.card .box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.card .box .price {
+    color: #fafafa;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card .box .btn {
+    font-size: 13px;
+    color: #070607;
+    padding: 10px 18px;
+    font-weight: 900;
+    border: 1px solid #020202;
+    border-radius: 20px;
+    border: none;
+    transition: transform 0.3s ease;
+
+}
+
+.card .box .btn:hover {
+    cursor: pointer;
+    background-color: #3f385e;
+    color: white;
+    border: none;
+    transform: scale(1.05);
+}
+
+
+/* Kadın Products */
+
+.sec {
+    padding: 10px 5%;
+    margin: 0;
+    padding: 0px;
+
+}
+
+.pheading {
+    padding: 50px;
+    margin: 0;
+    text-align: center;
+    font-weight: bolder;
+
+
+}
+
+/* Ürün Kartı Stili */
+.products-2 {
+    color: #000000;
+    background-color: #D1A578;
+    height: auto;
+    display: flex;
+    gap: 20px;
+    padding: 175px;
+    margin-bottom: -25px;
+    justify-content: center;
+    flex-wrap: wrap;
+    z-index: 1;
+    margin-top: -70px;
+}
+
+.card-2 {
+    width: 300px;
+    background-color: #E7B9A2;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    justify-content: space-between;
+}
+
+.card-2 img {
+    height: 250px;
+    width: 100%;
+}
+
+.card-2 .desc {
+    padding: 5px 20px;
+    opacity: 0.8;
+}
+
+.card-2 .title {
+    font-weight: 900;
+    font-size: 20px;
+    color: #fafafa;
+    padding: 0 20px;
+}
+
+.card-2 .box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.card-2 .box .price {
+    color: #fafafa;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-2 .box .btn {
+    font-size: 13px;
+    color: #070607;
+    padding: 10px 18px;
+    font-weight: 900;
+    border: 1px solid #020202;
+    border-radius: 20px;
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.card-2 .box .btn:hover {
+    cursor: pointer;
+    background-color: #881127;
+    color: white;
+    border: none;
+    transform: scale(1.05);
+
+
+
+
+
+}

@@ -1,0 +1,157 @@
+body {
+    background-image: url(İmages/girişyaparkaplan.jpg);
+    background-size: 105%;
+    background-repeat: none;
+    font-family: 'Lora', serif;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+
+
+}
+
+
+.navbar {
+    padding: 17px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
+    background-color: #f3f4f6;
+    box-shadow: 0 0 14px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+.navbar .logo h1 {
+    color: #424144;
+    border-bottom: 12px solid #fd6561;
+    border-bottom-right-radius: 15px;
+    font-weight: bolder;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    width: 200px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
+
+}
+
+.navbar .menu {
+
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+}
+
+.navbar .menu li {
+
+    margin-left: 5.5px;
+
+
+}
+
+.navbar .menu li a {
+    margin-left: 75px;
+    color: #424144;
+    border-bottom: 4px solid transparent;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.container {
+    background-color: #dec387;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 600px;
+    margin: auto;
+    margin-top: 300px;
+    text-align: center;
+    margin-left: 630px;
+}
+
+.registration-form {
+    text-align: center;
+
+}
+
+
+.navbar .menu li .active {
+    border-bottom: 3px solid #fd6561;
+    border-radius: 7px;
+}
+
+.navbar .menu li a i {
+    color: #fd6561;
+}
+
+.navbar .menu li a:hover {
+    border-bottom: 3px solid #fd6561;
+    border-radius: 7px;
+    width: 100%;
+}
+
+.registration-form h1 {
+    font-size: 60px;
+    margin-bottom: 45px;
+    color: #424144;
+    border-bottom: 12px solid #FD6561;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+
+
+}
+
+.registration-form label {
+    display: block;
+    margin-bottom: 20px;
+
+
+}
+
+
+.registration-form input {
+    border-radius: 15px;
+    border: none;
+    width: 100%;
+    height: 30px;
+    padding: 2px;
+    margin-right: 50px;
+    margin-bottom: 25px;
+    font-size: 17px;
+
+}
+
+.registration-form button {
+
+    border: none;
+    padding: 25px;
+    border-radius: 25px;
+
+}
+
+.registration-form button:hover {
+
+    color: #F3F4F6;
+    cursor: pointer;
+    background-color: #D1C3DA;
+
+}

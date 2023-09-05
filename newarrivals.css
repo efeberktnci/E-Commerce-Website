@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lora', serif;
+  font-family: 'Open Sans', sans-serif;
+
+
+}
+
+
+.navbar {
+  padding: 20px 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0%;
+  right: 0%;
+  left: 0%;
+  z-index: 5;
+  background-color: #f3f4f6;
+  box-shadow: 0 0 14px rgba(0, 0, 0, 0.3);
+}
+
+.navbar .logo h1 {
+  color: #424144;
+  border-bottom: 12px solid #fd6561;
+  border-bottom-right-radius: 15px;
+  font-weight: bolder;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+  width: 200px;
+  text-align: center;
+  margin-left: 25px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0;
+
+}
+
+.navbar .menu li {
+  list-style: none;
+  display: inline-block;
+}
+
+.navbar .menu li a {
+
+  margin-left: 75px;
+  color: #424144;
+  border-bottom: 4px solid transparent;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+
+.navbar .menu li .active {
+  border-bottom: 3px solid #fd6561;
+  border-radius: 7px;
+}
+
+.navbar .menu li a i {
+  color: #fd6561;
+
+
+}
+
+.navbar .menu li a:hover {
+  border-bottom: 3px solid #fd6561;
+  border-radius: 7px;
+  width: 100%;
+
+}
+
+.comingsoon {
+  background-color: #f3f4f6;
+}
+
+.comingsoon .fotograf {
+  background-image: url('İmages/yenigelenlerarkaplan.jfif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+}
